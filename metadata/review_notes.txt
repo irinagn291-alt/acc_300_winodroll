@@ -1,0 +1,17 @@
+The app requests no permissions. It never prompts for camera, photos, microphone, location, or tracking, so there is no usage-description string from the build settings.
+
+There is no login or accounts, no in-app purchase, no shared user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Winodroll is a local will-call desk for impulse shoppers. You stamp a priced want onto a hold ticket, wait out computed hours on a live rail, then mark it bought or dropped, or cut early by sacrificing another cooling ticket. Hours come from price versus a monthly impulse limit, then priority, necessity, and discretion.
+
+No credentials or demo account are needed. Cold launch opens in dark mode on a blank field, then onboarding if it is not finished. Page 1 shows Hold the purchase, Stamp a priced want and wait the hours, Page 1 of 3, Skip, and Continue. Page 2 shows The rail ticks hours, Price, priority, necessity, and discretion set the span, Page 2 of 3, Skip, and Continue. Page 3 shows Same code keeps longer, Cut early only by dropping another cooling ticket, Page 3 of 3, Skip, and Next. Skip or Next finishes the intro and opens the desk. On a device with no prior desk, the empty state shows File a want, The span starts, and Stamp. Tap Stamp, fill Name, Price, Priority, Necessity, 0 to 100, Discretion, 0 to 100, and optionally Retail code, optional, then tap Stamp. The desk shows Hold this purchase with hours left and Cooling on the desk. Stamp a second want so Cut enables; open Cut and tap a Cover row to release early, or tap a Short row to see Cover is short. Ticket stays. When hours reach zero, Bought and Dropped replace Cut. Open Review for Released, Cut, and Cooling. Open Rules to set Monthly impulse limit and Save. Open Longer span from Same code keeps the longer span / Stamp another. Cut buys early. In Settings use Show the intro, Reset the desk, or Contact.
+
+Desk data stays on this device (Local only. No checkout). Support is reached from Settings via Contact.
+
+UI strings are English; money and numbers follow the device locale. There is no other region-specific behaviour.
+
+No licence or regulated-industry paperwork applies. The app is a personal impulse hold desk with no checkout and no payments.
+
+The app is a personal log only and gives no recommendations. It shows no health, medical, or product-health information or citations.
+
+There is no barcode or QR scanning. Retail codes are typed by hand.

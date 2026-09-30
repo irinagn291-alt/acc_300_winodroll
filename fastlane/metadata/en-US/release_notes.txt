@@ -1,0 +1,12 @@
+Version 1.0 introduces Winodroll, a local will-call desk for impulse shoppers.
+
+• Intro pages Hold the purchase, The rail ticks hours, and Same code keeps longer
+• Desk with Review, Rules, Settings, Stamp, Cut, Bought, and Dropped
+• Stamp sheet for Name, Price, Priority, Necessity, 0 to 100, Discretion, 0 to 100, and Retail code, optional
+• Live hour rail with Hold this purchase, hours left, stamped, covers, and limit
+• Cut sheet with Cover and Short cooling tickets
+• Longer span sheet for same retail code and cut-by-cover rules
+• Review of Released, Cut, and Cooling
+• Rules for Monthly impulse limit and Hours at this limit
+• Settings with Contact, Show the intro, and Reset the desk
+• Desk data stays on this device; Local only. No checkout

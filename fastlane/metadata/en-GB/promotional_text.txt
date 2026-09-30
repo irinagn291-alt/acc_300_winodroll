@@ -1,0 +1,1 @@
+Stamp a priced want onto a hold ticket, wait out computed hours on a live rail, then mark it bought or dropped. Local only. No checkout.

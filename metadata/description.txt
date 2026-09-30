@@ -1,0 +1,15 @@
+Winodroll is a local will-call desk for impulse shoppers. You stamp a priced want onto a hold ticket, wait out computed hours on a live rail, then mark it bought or dropped—or cut early by sacrificing another cooling ticket.
+
+• Stamp a priced want with Name, Price, Priority, Necessity, 0 to 100, Discretion, 0 to 100, and Retail code, optional
+• Live hour rail (Hold this purchase) with hours left, stamped, covers, and limit
+• Monthly impulse limit that sets hold hours from price versus this limit, then priority, necessity, and discretion
+• Hold labels Blank, Cooling, Released, Released, bought, Released, dropped, and Released, cut
+• Same retail code keeps the longer span without restarting the rail
+• Cut early by covering with another cooling ticket; Short cover leaves the face ticket in place
+• Bought and Dropped when remaining hours reach zero
+• Review of Released, Cut, and Cooling tickets
+• Rules with Monthly impulse limit and Hours at this limit
+• Longer span sheet; Settings with Show the intro, Reset the desk, and Contact
+• Local only. No checkout.
+
+Everything stays on this device. Portrait only. Requires iOS 17.0 or later.
