@@ -346,7 +346,7 @@
 			mainGroup = 539B713F2C1D55947ACE5C7D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				814633C5C31C30162C15CC19 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E756F478CB80C1A7B996AD1F /* XCRemoteSwiftPackageReference "Alamofire" */,
 				07CE706C0B9826C4032EB120 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -722,12 +722,12 @@
 				minimumVersion = 6.17.9;
 			};
 		};
-		814633C5C31C30162C15CC19 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		E756F478CB80C1A7B996AD1F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			repositoryURL = "https://github.com/srfcsthpvf-prog/Alamofire";
 			requirement = {
 				kind = revision;
-				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+				revision = 43bf208138a03e76cfc537d000760282c7a4b8e4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -735,7 +735,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		A3EC6CF1E77DFDD154C5004F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 814633C5C31C30162C15CC19 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = E756F478CB80C1A7B996AD1F /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		FCB9E212BC63DF9495DDDEAC /* AppsFlyerLib-Static */ = {
