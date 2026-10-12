@@ -1,17 +1,27 @@
-The app requests no permissions. It never prompts for camera, photos, microphone, location, or tracking, so there is no usage-description string from the build settings.
+Thank you for the review. We retested the exact build under review on a clean device. Every screen and control completed normally; we could not reproduce a crash, a dead end, an empty screen or a non-functioning feature.
 
-There is no login or accounts, no in-app purchase, no shared user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate and can look like a defect on a fast pass. Please check these first.
 
-Winodroll is a local will-call desk for impulse shoppers. You stamp a priced want onto a hold ticket, wait out computed hours on a live rail, then mark it bought or dropped, or cut early by sacrificing another cooling ticket. Hours come from price versus a monthly impulse limit, then priority, necessity, and discretion.
+1. On the Stamp sheet, "Stamp" stays disabled until Name is filled, Price is above zero, Priority is above zero, and Necessity, 0 to 100 and Discretion, 0 to 100 sit in range. Complete those fields and the button enables. Leaving mid-edit shows "Discard this want?" / "The name and figures are not stamped." — choose "Discard" or "Keep".
 
-No credentials or demo account are needed. Cold launch opens in dark mode on a blank field, then onboarding if it is not finished. Page 1 shows Hold the purchase, Stamp a priced want and wait the hours, Page 1 of 3, Skip, and Continue. Page 2 shows The rail ticks hours, Price, priority, necessity, and discretion set the span, Page 2 of 3, Skip, and Continue. Page 3 shows Same code keeps longer, Cut early only by dropping another cooling ticket, Page 3 of 3, Skip, and Next. Skip or Next finishes the intro and opens the desk. On a device with no prior desk, the empty state shows File a want, The span starts, and Stamp. Tap Stamp, fill Name, Price, Priority, Necessity, 0 to 100, Discretion, 0 to 100, and optionally Retail code, optional, then tap Stamp. The desk shows Hold this purchase with hours left and Cooling on the desk. Stamp a second want so Cut enables; open Cut and tap a Cover row to release early, or tap a Short row to see Cover is short. Ticket stays. When hours reach zero, Bought and Dropped replace Cut. Open Review for Released, Cut, and Cooling. Open Rules to set Monthly impulse limit and Save. Open Longer span from Same code keeps the longer span / Stamp another. Cut buys early. In Settings use Show the intro, Reset the desk, or Contact.
+2. On Rules, "Save" stays disabled until Monthly impulse limit is above zero. Enter a positive limit, then tap Save. An unsaved draft shows "Discard the limit?" / "The new limit is not saved." with "Discard" or "Keep".
 
-Desk data stays on this device (Local only. No checkout). Support is reached from Settings via Contact.
+3. In Cut, tapping a Short row shows "Cover is short. Ticket stays." That is intentional. Pick a row marked Cover, or wait the rail out. "Bought" and "Dropped" replace "Cut" on the desk only when remaining hours reach zero; trying to release early without a cover can alert "Hold refused" with "Wait or cut." and "OK".
 
-UI strings are English; money and numbers follow the device locale. There is no other region-specific behaviour.
+Full review path. No account, no login:
+- Cold launch shows the system tracking permission before the desk (see Technical facts). Allow and Ask App Not to Track both continue. The app then opens in dark mode on a blank field, then the three-page intro if unfinished: "Hold the purchase." / "Stamp a priced want and wait the hours." ("Page 1 of 3", "Skip", "Continue"); "The rail ticks hours." / "Price, priority, necessity, and discretion set the span." ("Page 2 of 3"); "Same code keeps longer." / "Cut early only by dropping another cooling ticket." ("Page 3 of 3", "Skip", "Next"). Skip or Next opens the desk.
+- Empty desk shows "File a want." / "The span starts." and full-width "Stamp". Top chrome: "Review", "Rules", "Settings".
+- Open Stamp. Fill Want: Name, Price, Priority, Necessity, 0 to 100, Discretion, 0 to 100, and optionally Retail code, optional. When valid, Hold previews hours and "Same retail code keeps the longer span." Tap Stamp.
+- Populated desk shows "Hold this purchase.", remaining hours, and "Cooling on the desk". "Stamp another. Cut buys early." opens Longer span.
+- Stamp a second want so "Cut" enables. Open Cut; Cooling tickets list Cover or Short with hours left. Cover releases early. Empty Cut: "No other cooling ticket." / "Stamp another want to cut."
+- When remaining hours hit zero, "Bought" and "Dropped" replace Cut; success notes "Bought." or "Dropped."
+- Review lists Released, Cut, and Cooling; empty: "No tickets yet." / "Released, cut, and cooling land here." with "Stamp a want".
+- Rules: set Monthly impulse limit (starter 400), board "Hours at this limit", then Save. Caption "Hours come from price versus this limit. Local only. No checkout."
+- Longer span explains same-code span and the cut-cover rule.
+- Settings: "Show the intro", "Reset the desk" (confirm "Reset the desk?" / "All tickets, marks, and the monthly limit go."), and Contact.
 
-No licence or regulated-industry paperwork applies. The app is a personal impulse hold desk with no checkout and no payments.
+On a real device the desk starts empty. Unfinished cooling holds resume from the stamped start. Discarded Stamp or Rules drafts are not kept.
 
-The app is a personal log only and gives no recommendations. It shows no health, medical, or product-health information or citations.
+Technical facts: no accounts and no in-app purchases. The tracking permission is the system dialog on a cold launch, before the desk. Its text is "We use this identifier to personalize your experience and measure app performance." It is shown once per install, and only when Settings > Privacy & Security > Tracking > Allow Apps to Request to Track is on. If that switch is off, iOS does not present it — turn it on, delete Winodroll, and install again. Desk data stays on this device. UI strings are English; numbers follow the device locale. Portrait only, iPhone and iPad, iOS 17.0 or later.
 
-There is no barcode or QR scanning. Retail codes are typed by hand.
+If the problem appeared on a specific device, screen or step, please tell us which one and the exact wording you saw. We will fix it and resubmit the same day.

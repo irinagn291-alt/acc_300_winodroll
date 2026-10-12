@@ -1,4 +1,4 @@
-<!-- gf-brief source=58ffeb3e1bd05b8541d977cb10a970a8d738d4f4b273eb743cdd39d70f7a21b4 written=2026-09-30T22:56:39+03:00 -->
+<!-- gf-brief source=58ffeb3e1bd05b8541d977cb10a970a8d738d4f4b273eb743cdd39d70f7a21b4 written=2026-10-01T13:50:51+03:00 -->
 # Winodroll
 
 ## What it is
@@ -79,10 +79,10 @@ Title **"Settings"**. Close (VoiceOver **"Close"**). Optional **"Desk is clear."
 On Simulator only, a one-time demo desk may appear after load (onboarding already complete): cooling **"Field bag"** and **"Desk lamp"**; released **"Notebook"** (bought) and **"Cable"** (cut); blank **"Chair"**, **"Kettle"**, **"Tray"**; monthly limit 400. On a real device there is no seed—empty desk after onboarding. Unfinished cooling holds resume with remaining hours ticking from the stamped start. Incomplete Stamp/Rules drafts are not kept if discarded.
 
 ## Permissions
-None. The app never prompts for camera, photos, microphone, location, or tracking. Retail codes are typed by hand.
+On a cold launch, before the desk or the intro, iOS shows the system tracking permission. The usage text is "We use this identifier to personalize your experience and measure app performance." Allow and Ask App Not to Track both continue into the app. It appears once per install, and only when Settings → Privacy & Security → Tracking → Allow Apps to Request to Track is on. If that switch is off, iOS skips the dialog. The app does not prompt for camera, photos, microphone, or location. Retail codes are typed by hand.
 
 ## Absent
-Login or accounts; in-app purchase; ads; analytics; shared user-generated content; account deletion flow; App Tracking Transparency prompt.
+Login or accounts; in-app purchase; ads; shared user-generated content; account deletion flow.
 
 ## Data and support
 Desk data stays on this device (**"Local only. No checkout."**). Support: Settings → Contact → **"https://counterfoil-desk.pro/contact-us"**.
